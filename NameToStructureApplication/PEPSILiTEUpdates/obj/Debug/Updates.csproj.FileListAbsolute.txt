@@ -1,0 +1,73 @@
+E:\ADOptUpdates\bin\Debug\CAS-Narrative-Tool-Updates.exe.config
+E:\ADOptUpdates\obj\Debug\ResolveAssemblyReference.cache
+E:\ADOptUpdates\obj\Debug\ADOptUpdates.frmupdates.resources
+E:\ADOptUpdates\obj\Debug\ADOptUpdates.Properties.Resources.resources
+E:\ADOptUpdates\obj\Debug\Updates.csproj.GenerateResource.Cache
+E:\ADOptUpdates\obj\Debug\CAS-Narrative-Tool-Updates.exe.licenses
+E:\CAS\CAS-Narrative\CASUpdates\obj\Debug\ResolveAssemblyReference.cache
+E:\CAS\CAS-Narrative\CASUpdates\obj\Debug\ADOptUpdates.frmupdates.resources
+E:\CAS\CAS-Narrative\CASUpdates\obj\Debug\ADOptUpdates.Properties.Resources.resources
+E:\CAS\CAS-Narrative\CASUpdates\obj\Debug\Updates.csproj.GenerateResource.Cache
+E:\CAS\CAS-Narrative\CASUpdates\obj\Debug\CAS-Narrative-Tool-Updates.exe.licenses
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\CAS-Narrative-Tool-Updates.exe.config
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\CAS-Narrative-Tool-Updates.exe
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\CAS-Narrative-Tool-Updates.pdb
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\AxInterop.AcroPDFLib.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\AxInterop.DHTMLEDLib.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\AxInterop.GdViewerPro4.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\CAS_Nar_Bll.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\CAS-Narrative.DAL.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\CAS-Narrative.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\HtmlEditor.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\HtmlRichTextBox.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Interop.AcroPDFLib.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Interop.DHTMLEDLib.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Interop.GdViewerPro4.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Npgsql.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\SautinSoft.RtfToHtml.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\office.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Mono.Security.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\CAS-Narrative.DAL.pdb
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\office.xml
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Npgsql.pdb
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Npgsql.xml
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\CAS_Nar_Bll.pdb
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\HtmlRichTextBox.pdb
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\CAS-Narrative.pdb
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\Microsoft.Office.Interop.Excel.xml
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\de\Npgsql.resources.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\es\Npgsql.resources.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\fi\Npgsql.resources.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\fr\Npgsql.resources.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\ja\Npgsql.resources.dll
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\zh-CN\Npgsql.resources.dll
+E:\CAS\CAS-Narrative\CASUpdates\obj\Debug\CAS-Narrative-Tool-Updates.exe
+E:\CAS\CAS-Narrative\CASUpdates\obj\Debug\CAS-Narrative-Tool-Updates.pdb
+E:\CAS\CAS-Narrative\CASUpdates\bin\Debug\SautinSoft.HtmlToRtf.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\obj\Debug\ResolveAssemblyReference.cache
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\obj\Debug\Updates.csproj.GenerateResource.Cache
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\Mono.Security.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\Npgsql.pdb
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\Npgsql.xml
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\de\Npgsql.resources.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\es\Npgsql.resources.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\fi\Npgsql.resources.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\fr\Npgsql.resources.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\ja\Npgsql.resources.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\zh-CN\Npgsql.resources.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\obj\Debug\PepsiLiteUpdates.frmupdates.resources
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\obj\Debug\PepsiLiteUpdates.Properties.Resources.resources
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\Interop.ChemDrawControl8.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PepsiLiteDataAccess.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PepsiLiteDataAccess.pdb
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\NameToStructureApplication.pdb
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\AxInterop.AcroPDFLib.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\Interop.AcroPDFLib.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.exe.config
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.exe
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.pdb
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\obj\Debug\PEPSILiTE-Updates.exe.licenses
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\obj\Debug\PEPSILiTE-Updates.exe
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\obj\Debug\PEPSILiTE-Updates.pdb

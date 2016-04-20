@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<IPJobDetails>
+  <IPAnalysis>
+    <Jobs Job_Name="testm2t" Target="CCD" SheetName="GETSTRUCT" JobID="7486" MSSID="10848" CreatedOn="2010-03-19T12:36:31.4970636+05:30" Type="SUBSTRUCTURE" Status="Successful" Descriptor="Whole Molecule" />
+    <Jobs Job_Name="999" Target="CCD" SheetName="GETSTRUCT" JobID="23" MSSID="11467" CreatedOn="2010-03-19T17:03:35.3642636+05:30" Type="SUBSTRUCTURE" Status="Successful" Descriptor="Whole Molecule" />
+    <Jobs Job_Name="GetStructure1" Target="CCD" SheetName="GETSTRUCT" JobID="27" MSSID="11472" CreatedOn="2010-03-20T11:08:52.7355743+05:30" Type="SUBSTRUCTURE" Status="Successful" Descriptor="Whole Molecule" />
+    <Jobs Job_Name="ttt" Target="CCD" SheetName="hjki" JobID="32" MSSID="11477" CreatedOn="2010-03-25T09:42:59.7509074+05:30" Type="SUBSTRUCTURE" Status="Successful" Descriptor="Whole Molecule" />
+    <Jobs Job_Name="dennysheettest" Target="CCD" SheetName="e3" JobID="33" MSSID="11478" CreatedOn="2010-03-25T19:59:38.4249258+05:30" Type="SUBSTRUCTURE" Status="Successful" Descriptor="Whole Molecule" />
+    <Jobs Job_Name="Dennytest2" Target="DD" SheetName="ewrt" JobID="34" MSSID="11479" CreatedOn="2010-03-25T20:05:32.6947058+05:30" Type="SUBSTRUCTURE" Status="Successful" Descriptor="Whole Molecule" />
+    <Jobs Job_Name="GRNewJob1" Target="CCD" SheetName="gr" JobID="41" MSSID="11482" CreatedOn="2010-03-29T15:23:39.7681948+05:30" Type="SUBSTRUCTURE" Status="Successful" Descriptor="Whole Molecule" />
+  </IPAnalysis>
+</IPJobDetails>

@@ -1,0 +1,435 @@
+2010-06-19 09:58:41.5691 NameToStructure System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(Int32 index)
+   at NameToStructureApplication.TaskManagement.frmTaskAssignment.ValidateAssignmentDetails(String _userrole, String _assignedfor, String& _errmsg_out)
+2010-06-19 09:59:52.4441 NameToStructure System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(Int32 index)
+   at NameToStructureApplication.TaskManagement.frmTaskAssignment.ValidateAssignmentDetails(String _userrole, String _assignedfor, String& _errmsg_out)
+2010-06-22 11:50:45.4168 NameToStructure chemaxon.reaction.StandardizerException: Could not read reaction: C:\Documents and Settings\sairam.punyamantula\Desktop\stand.xml
+Caused by:
+Could not read file or structure string: C:\Documents and Settings\sairam.punyamantula\Desktop\stand.xml
+Cannot recognize format (?)
+Unrecognized file contents:
+C:\Documents and Settings\sairam.punyamantula\Desktop\stand.xml
+2010-06-22 11:52:12.1686 NameToStructure chemaxon.reaction.StandardizerException: Could not read reaction: C:\Documents and Settings\sairam.punyamantula\Desktop\stand.xml
+Caused by:
+Could not read file or structure string: C:\Documents and Settings\sairam.punyamantula\Desktop\stand.xml
+Cannot recognize format (?)
+Unrecognized file contents:
+C:\Documents and Settings\sairam.punyamantula\Desktop\stand.xml
+2010-06-22 11:53:49.0686 NameToStructure chemaxon.reaction.StandardizerException: Could not read reaction: C:\Documents and Settings\sairam.punyamantula\Desktop\stand.xml
+Caused by:
+Could not read file or structure string: C:\Documents and Settings\sairam.punyamantula\Desktop\stand.xml
+Cannot recognize format (?)
+Unrecognized file contents:
+C:\Documents and Settings\sairam.punyamantula\Desktop\stand.xml
+2010-06-22 12:16:41.0197 NameToStructure System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at NameToStructureApplication.Help.frmProdDetails.frmProdDetails_Load(Object sender, EventArgs e)
+2010-06-22 12:17:04.4266 NameToStructure System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at NameToStructureApplication.Help.frmProdDetails.frmProdDetails_Load(Object sender, EventArgs e)
+2010-06-22 15:38:52.8616 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(RgMolecule _rgMol, Molecule _coreMol, Int32 _rgrpNum)
+2010-06-22 15:42:51.5192 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(RgMolecule _rgMol, Molecule _coreMol, Int32 _rgrpNum)
+2010-06-22 15:42:51.9887 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(RgMolecule _rgMol, Molecule _coreMol, Int32 _rgrpNum)
+2010-06-22 15:42:52.2704 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(RgMolecule _rgMol, Molecule _coreMol, Int32 _rgrpNum)
+2010-06-22 15:42:52.8964 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(RgMolecule _rgMol, Molecule _coreMol, Int32 _rgrpNum)
+2010-06-22 15:42:53.5851 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(RgMolecule _rgMol, Molecule _coreMol, Int32 _rgrpNum)
+2010-06-22 15:43:07.7489 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(RgMolecule _rgMol, Molecule _coreMol, Int32 _rgrpNum)
+2010-06-22 15:52:12.5185 NameToStructure java.lang.IllegalArgumentException: The following error occured in the IUPAC software:
+InChI version 1, Software version 1.02 release 01/10/2009
+Opened log file 'C:\Documents and Settings\sairam.punyamantula\Local Settings\Temp\temp_java_inchi9080258897010448117log'
+Opened output file 'C:\Documents and Settings\sairam.punyamantula\Local Settings\Temp\temp_java_inchi8274975881691909970in'
+Opened problem file 'C:\Documents and Settings\sairam.punyamantula\Local Settings\Temp\temp_java_inchi7706724496969611110prb'
+
+2010-06-22 15:59:22.3650 NameToStructure java.lang.RuntimeException: Atom 3 in atom array does not belong to molecule.
+2010-06-22 15:59:49.0964 NameToStructure java.lang.RuntimeException: Atom 3 in atom array does not belong to molecule.
+2010-06-22 16:03:12.7746 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:12.8841 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:12.9937 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:13.1033 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:13.2285 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:13.3224 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:13.4319 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:13.5415 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:13.6510 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:13.7606 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:03:13.8701 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:44.6377 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:44.7473 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:44.8568 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:44.9507 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:45.0446 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:45.1542 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:45.2637 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:45.3733 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:45.4985 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:45.6080 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:45.7176 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:45.8272 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.0487 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.1426 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.2365 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.3304 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.4400 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.5339 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.6434 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.7373 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.8469 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:57.9408 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:58.0504 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:19:58.1599 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:42:15.3557 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:27.6280 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:27.7533 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:27.8628 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:27.9567 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:28.0663 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:28.1758 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:28.2854 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:28.3949 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:28.5045 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:28.6140 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 16:49:28.7079 NameToStructure chemaxon.formats.MolFormatException: Invalid atom indices in bond definition (0, 0)
+2010-06-22 17:35:00.3255 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:00.3409 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:00.3409 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:03.8993 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:03.9147 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:03.9300 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:04.1141 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:04.1294 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:04.1294 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:04.2981 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:04.3135 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:04.3288 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:04.5129 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:04.5282 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:04.5282 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:04.7123 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:04.7123 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:04.7276 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:04.9423 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:04.9577 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:04.9577 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:05.1264 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:05.1417 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:05.1571 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:05.3258 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:05.3411 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:05.3565 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:05.5252 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:05.5252 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:05.5252 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:05.7092 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:05.7246 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:05.7246 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-22 17:35:05.8933 NameToStructure chemaxon.formats.MolFormatException: Cannot recognize format (?)
+Unrecognized file contents:
+[Cl]H
+2010-06-22 17:35:05.9086 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMol(Molecule& _coreMol, RgMolecule _rgMol, Int32 _radicalpos)
+2010-06-22 17:35:05.9240 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum)
+2010-06-23 08:57:21.8236 NameToStructure System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at NameToStructureApplication.Help.frmProdDetails.frmProdDetails_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmProdDetails.cs:line 26
+2010-06-23 09:58:13.9895 NameToStructure System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at NameToStructureApplication.Help.frmProdDetails.frmProdDetails_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmProdDetails.cs:line 26
+2010-06-23 10:41:28.9201 NameToStructure System.IO.FileNotFoundException: Could not find file 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'.
+File name: 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NameToStructureApplication.frmCurator.GetMoleculeCountFromFile(String filename) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 565
+2010-06-23 10:42:00.0372 NameToStructure System.IO.FileNotFoundException: Could not find file 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'.
+File name: 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NameToStructureApplication.frmCurator.GetMoleculeCountFromFile(String filename) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 565
+2010-06-23 10:43:02.6230 NameToStructure System.IO.FileNotFoundException: Could not find file 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'.
+File name: 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NameToStructureApplication.frmCurator.GetMoleculeCountFromFile(String filename) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 565
+2010-06-23 10:43:28.4186 NameToStructure System.IO.FileNotFoundException: Could not find file 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'.
+File name: 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NameToStructureApplication.frmCurator.GetMoleculeCountFromFile(String filename) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 565
+2010-06-23 10:44:17.1594 NameToStructure System.IO.FileNotFoundException: Could not find file 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'.
+File name: 'C:\Documents and Settings\sairam.punyamantula\Desktop\PEPSILITE\PepsiLite-PDFs\67891239H.sdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NameToStructureApplication.frmCurator.GetMoleculeCountFromFile(String filename) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 565
+2010-06-23 10:44:50.4477 NameToStructure System.IndexOutOfRangeException: There is no row at position -1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 1266
+2010-06-23 13:21:13.8445 NameToStructure System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at NameToStructureApplication.Help.frmProdDetails.frmProdDetails_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmProdDetails.cs:line 26
+2010-06-23 14:47:45.4204 NameToStructure System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at NameToStructureApplication.Help.frmProdDetails.frmProdDetails_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmProdDetails.cs:line 26
+2010-06-24 09:27:30.8995 NameToStructure System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at NameToStructureApplication.Help.frmProdDetails.frmProdDetails_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmProdDetails.cs:line 26
+2010-06-24 10:04:03.0448 NameToStructure System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at NameToStructureApplication.Help.frmProdDetails.frmProdDetails_Load(Object sender, EventArgs e)
+2010-06-24 11:59:52.8462 NameToStructure System.IO.FileNotFoundException: Could not find file 'E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\bin\Debug\67891235A.sdf'.
+File name: 'E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\bin\Debug\67891235A.sdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NameToStructureApplication.frmCurator.GetMoleculeCountFromFile(String filename) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 565
+2010-06-24 12:07:21.8553 NameToStructure System.IO.FileNotFoundException: Could not find file 'E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\bin\Debug\67891235A.sdf'.
+File name: 'E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\bin\Debug\67891235A.sdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NameToStructureApplication.frmCurator.GetMoleculeCountFromFile(String filename) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 565
+2010-06-25 10:36:39.0696 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:36:40.0724 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:36:40.2605 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:36:40.4485 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:36:40.6052 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:36:40.7776 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:36:40.9343 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:36:41.1067 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:41:57.7049 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:41:57.9242 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:41:58.1122 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:41:58.2845 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:41:58.4882 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:41:58.6605 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:41:59.0522 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 10:41:59.3342 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Enumeration.RgroupEnum.AddRGrpMolToCoreMolecule(Molecule& _coreMol, RgMolecule _rgMol, Int32 _rgrpNum) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Enumeration\RgroupEnum.cs:line 370
+2010-06-25 16:10:52.0763 NameToStructure System.ArgumentException: Column 'id' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 1319
+2010-06-25 16:10:53.2161 NameToStructure System.IO.FileNotFoundException: Could not find file 'E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\bin\Debug\12345678A.sdf'.
+File name: 'E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\bin\Debug\12345678A.sdf'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at NameToStructureApplication.frmCurator.GetMoleculeCountFromFile(String filename) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 593
+2010-07-20 09:16:08.9079 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.WriteOutPutXMLFile.WriteXmlFileUsingXSD(String infilename, String tannumber, String outputfilepath) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Classes\WriteOutPutXMLFile.cs:line 179
+2010-07-20 09:19:15.9110 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.WriteOutPutXMLFile.WriteXmlFileUsingXSD(String infilename, String tannumber, String outputfilepath)
+2010-07-20 16:27:07.0230 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmCurator.cs:line 1317
+2010-07-20 16:28:00.8116 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2010-07-20 16:28:09.6322 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2010-07-20 16:28:24.7487 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2010-07-20 16:28:31.1382 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2010-07-20 16:29:08.3219 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2010-07-20 16:29:18.4671 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2010-07-20 16:29:31.9006 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2010-07-20 16:29:42.9186 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2010-07-20 16:29:54.0612 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2010-07-20 16:30:04.7831 NameToStructure System.IndexOutOfRangeException: There is no row at position 3.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at NameToStructureApplication.frmCurator.ReadMoleculeFromTable(Int32 recindex)
+2011-10-21 08:55:21.0527 NameToStructure chemaxon.license.LicenseException: License is expired.
+Product name: Standardizer
+License path: C:\Documents and Settings\sairam.punyamantula\chemaxon\license.cxl
+Please contact sales@chemaxon.com to obtain the corresponding license.
+Students and academic researchers are entitled of free use
+through our Academic Package, for more information
+please visit: http://www.chemaxon.com/acpack_conditions.html
+
+Action tasks:
+Aromatize, Dearomatize, AddExplicitH, RemoveExplicitH, WedgeClean, 
+ConvertWedgeInterpretation do not require a license key.
+Remove non-Action elements from Standardizer XML configuration and run again.
+2011-10-21 08:55:21.1934 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Classes.ChemistryOperations.GetStandardizedMolecule(String strMolFile, Boolean& isChiral_Out) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Classes\ChemistryOperations.cs:line 34
+2011-10-21 08:56:13.8496 NameToStructure System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   at System.Reflection.Assembly.LoadFile(String path)
+   at NameToStructureApplication.Help.frmProdDetails.frmProdDetails_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmProdDetails.cs:line 26
+2011-12-17 15:16:57.0780 NameToStructure chemaxon.license.LicenseException: License is expired.
+Product name: Standardizer
+License path: C:\Documents and Settings\sairam.punyamantula\chemaxon\license.cxl
+Please contact sales@chemaxon.com to obtain the corresponding license.
+Students and academic researchers are entitled of free use
+through our Academic Package, for more information
+please visit: http://www.chemaxon.com/acpack_conditions.html
+
+Action tasks:
+Aromatize, Dearomatize, AddExplicitH, RemoveExplicitH, WedgeClean, 
+ConvertWedgeInterpretation do not require a license key.
+Remove non-Action elements from Standardizer XML configuration and run again.
+2011-12-17 15:16:57.1875 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Classes.ChemistryOperations.GetStandardizedMolecule(String strMolFile, Boolean& isChiral_Out) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Classes\ChemistryOperations.cs:line 34
+2011-12-17 15:17:28.5551 NameToStructure chemaxon.license.LicenseException: License is expired.
+Product name: Standardizer
+License path: C:\Documents and Settings\sairam.punyamantula\chemaxon\license.cxl
+Please contact sales@chemaxon.com to obtain the corresponding license.
+Students and academic researchers are entitled of free use
+through our Academic Package, for more information
+please visit: http://www.chemaxon.com/acpack_conditions.html
+
+Action tasks:
+Aromatize, Dearomatize, AddExplicitH, RemoveExplicitH, WedgeClean, 
+ConvertWedgeInterpretation do not require a license key.
+Remove non-Action elements from Standardizer XML configuration and run again.
+2011-12-17 15:17:28.5551 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Classes.ChemistryOperations.GetStandardizedMolecule(String strMolFile, Boolean& isChiral_Out) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Classes\ChemistryOperations.cs:line 34
+2011-12-17 15:17:55.4285 NameToStructure chemaxon.license.LicenseException: License is expired.
+Product name: Standardizer
+License path: C:\Documents and Settings\sairam.punyamantula\chemaxon\license.cxl
+Please contact sales@chemaxon.com to obtain the corresponding license.
+Students and academic researchers are entitled of free use
+through our Academic Package, for more information
+please visit: http://www.chemaxon.com/acpack_conditions.html
+
+Action tasks:
+Aromatize, Dearomatize, AddExplicitH, RemoveExplicitH, WedgeClean, 
+ConvertWedgeInterpretation do not require a license key.
+Remove non-Action elements from Standardizer XML configuration and run again.
+2011-12-17 15:17:55.4285 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Classes.ChemistryOperations.GetStandardizedMolecule(String strMolFile, Boolean& isChiral_Out) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Classes\ChemistryOperations.cs:line 34
+2011-12-17 15:47:40.8959 NameToStructure chemaxon.license.LicenseException: License is expired.
+Product name: Standardizer
+License path: C:\Documents and Settings\sairam.punyamantula\chemaxon\license.cxl
+Please contact sales@chemaxon.com to obtain the corresponding license.
+Students and academic researchers are entitled of free use
+through our Academic Package, for more information
+please visit: http://www.chemaxon.com/acpack_conditions.html
+
+Action tasks:
+Aromatize, Dearomatize, AddExplicitH, RemoveExplicitH, WedgeClean, 
+ConvertWedgeInterpretation do not require a license key.
+Remove non-Action elements from Standardizer XML configuration and run again.
+2011-12-17 15:47:40.9116 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at NameToStructureApplication.Classes.ChemistryOperations.GetStandardizedMolecule(String strMolFile, Boolean& isChiral_Out) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Classes\ChemistryOperations.cs:line 34

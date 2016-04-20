@@ -1,0 +1,10 @@
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\bin\Debug\PepsiLiteDataAccess.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\bin\Debug\PepsiLiteDataAccess.pdb
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\obj\Debug\PepsiLiteDataAccess.dll
+E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\obj\Debug\PepsiLiteDataAccess.pdb
+D:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\bin\Debug\PepsiLiteDataAccess.dll
+D:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\bin\Debug\PepsiLiteDataAccess.pdb
+D:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\obj\Debug\PepsiLiteDataAccess.dll
+D:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\obj\Debug\PepsiLiteDataAccess.pdb

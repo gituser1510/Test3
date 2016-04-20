@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RGroupOrderDetails>
+  <!--<RGroup Name="R1" Value ="c1ccccc1['']" Order ="1" R-Core ="c12nc(nn1c(cc(n2)['R3'])['R2'])['R1']" SheetName ="TEST123"/>
+  <RGroup Name="R1" Value ="[''][H]" Order ="2" R-Core ="c12nc(nn1c(cc(n2)['R3'])['R2'])['R1']" SheetName ="TEST123"/>
+  <RGroup Name="R1" Value ="COc1c(cc(cc1)OC)c1csc(NC(=O)[''])n1" Order ="3" R-Core ="c12nc(nn1c(cc(n2)['R3'])['R2'])['R1']" SheetName ="TEST123"/>
+  <RGroup Name="R1" Value ="Cc1cc(C)cc2sc(NC(=O)[''])nc12" Order ="4" R-Core ="c12nc(nn1c(cc(n2)['R3'])['R2'])['R1']" SheetName ="TEST123"/>-->
+  <RGroupOrder>
+    <SheetName Name="TEST123">
+      <RGroup Name ="R1">
+        <RGrpVal Name="c1ccccc1['']" Order ="1" />
+        <RGrpVal Name="[''][H]" Order ="2"/>
+        <RGrpVal Name="COc1c(cc(cc1)OC)c1csc(NC(=O)[''])n1" Order ="3"/>
+        <RGrpVal Name="Cc1cc(C)cc2sc(NC(=O)[''])nc12" Order ="4"/>
+        <RGrpVal Name="O=C(Nc1nc2c(cc(CC)cc2)s1)['']" Order ="5"/>
+      </RGroup>
+      <RGroup Name ="R2">
+        <RGrpVal Name="['']C(Nc1cccnc1)=O" Order ="1" />
+        <RGrpVal Name="['']c1ccccc1" Order ="2" />
+      </RGroup>
+      <RGroup Name ="R3">
+        <RGrpVal Name="[H]['']" Order ="1" />    
+      </RGroup>
+    </SheetName>
+    <SheetName Name="TEST456">
+      <RGroup Name ="R1">
+        <RGrpVal Name="c1ccccc1['']" Order ="1" />
+        <RGrpVal Name="[''][H]" Order ="2"/>
+        <RGrpVal Name="COc1c(cc(cc1)OC)c1csc(NC(=O)[''])n1" Order ="3" />
+        <RGrpVal Name="Cc1cc(C)cc2sc(NC(=O)[''])nc12" Order ="4" />
+        <RGrpVal Name="O=C(Nc1nc2c(cc(CC)cc2)s1)['']" Order ="5" />
+      </RGroup>
+      <RGroup Name ="R2">
+        <RGrpVal Name="['']C(Nc1cccnc1)=O" Order ="1" />
+        <RGrpVal Name="['']c1ccccc1" Order ="2" />
+      </RGroup>
+      <RGroup Name ="R3">
+        <RGrpVal Name="[H]['']" Order ="1" />
+      </RGroup>
+    </SheetName>
+  </RGroupOrder>
+</RGroupOrderDetails>

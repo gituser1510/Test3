@@ -1,0 +1,370 @@
+2010-06-16 13:52:28.9648 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 13:55:40.0839 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 15:39:55.6061 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 15:39:55.8877 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 15:48:29.1512 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 15:48:29.3077 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 15:54:38.9400 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 15:54:39.0965 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 15:59:45.9186 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 15:59:46.0750 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 16:02:51.8144 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 16:02:51.9866 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 16:04:19.5047 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 16:04:21.7423 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 16:04:56.0580 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-16 16:04:56.2144 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:19:41.2448 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:19:41.4793 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:21:04.9811 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:21:05.1374 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:22:44.0289 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:22:44.1852 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:24:38.8377 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:24:39.0096 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:24:57.1439 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:24:57.2846 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-17 15:27:18.5462 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:27:18.6088 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-17 15:32:58.5634 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 15:32:58.6259 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-17 16:11:37.4431 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 16:11:37.7871 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-17 16:12:52.6896 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 16:12:52.7678 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-17 16:13:48.7531 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 16:13:48.8156 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-17 16:15:43.2253 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 16:15:43.3191 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-17 16:20:55.4831 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 16:20:55.5457 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-17 16:24:30.1849 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 16:24:30.2474 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-17 16:26:04.4891 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-17 16:26:04.5673 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-18 10:25:21.2435 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 10:25:21.4310 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-18 10:27:17.1185 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 10:27:17.3841 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 10:27:41.6497 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 10:27:41.8216 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 10:28:49.7435 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 10:28:49.8997 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 10:33:10.2904 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 10:33:10.4466 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:40:08.5809 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:40:08.6434 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-18 15:41:46.7910 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:41:46.9629 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:49:35.7927 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:49:35.9490 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:50:43.2194 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:50:43.3756 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:53:08.0264 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:53:08.1827 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 15:53:08.9015 PEPSILiTE LOG Error at frmupdates: startProcess : StrError Outputscp: /root/PEPSILITE/16JUNE10/PepsiLiteApplication.dll: No such file or directory
+
+
+2010-06-18 16:32:08.5193 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 16:34:58.6094 PEPSILiTE LOG Start writing pscp cache key in registry
+2010-06-18 16:34:58.6719 PEPSILiTE LOG System.IO.FileNotFoundException: Could not load file or assembly 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756' or one of its dependencies. The system cannot find the file specified.
+File name: 'Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756'
+   at Npgsql.NpgsqlConnection..ctor(String ConnectionString)
+   at PepsiLiteUpdates.frmupdates.GetDllNames() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 690
+   at PepsiLiteUpdates.frmupdates.GetFileNamestobeUpdated() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\frmUpdates.cs:line 173
+   at PepsiLiteUpdates.Program.CheckUpdates() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\Program.cs:line 56
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : Npgsql, Version=2.0.4.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/Mono.Security/Mono.Security.EXE.
+
+2010-06-18 16:55:02.5223 PEPSILiTE LOG Start writing pscp cache key in registry

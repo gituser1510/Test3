@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by CAS Employee (American Chemical Society) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.3">
+	<xs:annotation>
+		<xs:documentation>Revised: Dec 11, 2007</xs:documentation>
+		<xs:documentation>
+			Version: 2.0
+			1) This largely a rewrite.
+			2) Some elements persist, although in different form.
+		</xs:documentation>
+		<xs:documentation>Revised: Dec 31, 2007</xs:documentation>
+		<xs:documentation>
+			Version: 2.1
+			1) Attributes "encoding" and "type" on element "structureData" are now required.
+		</xs:documentation>
+		<xs:documentation>Revised: Jun 17, 2008</xs:documentation>
+		<xs:documentation>
+			Version: 2.2
+			1) Changes made to accommodate a minimum length restriction for "structureData" 
+				element to ensure non-empty content.
+		</xs:documentation>
+		<xs:documentation>Revised: Aug 19, 2008</xs:documentation>
+		<xs:documentation>
+			Version: 2.3
+			1) Changes made to permit Chinese and Japanese in languageType ("zh" and "ja",
+				respectively).
+		</xs:documentation>
+	</xs:annotation>
+	<xs:annotation>
+		<xs:documentation>
+			================================================================================
+				Type definitions.
+			================================================================================
+		</xs:documentation>
+	</xs:annotation>
+	<xs:simpleType name="languageType">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				This type specifies languages using a restriction of the standard "xs:language" 
+				datatype.  The permitted values are currently restricted to the following:
+					- "de" for German
+					- "en" for English
+					- "fr" for French
+					- "ja" for Japanese
+					- "zh" for Chinese
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:language">
+			<xs:enumeration value="de"/>
+			<xs:enumeration value="en"/>
+			<xs:enumeration value="fr"/>
+			<xs:enumeration value="ja"/>
+			<xs:enumeration value="zh"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="nameType" mixed="true">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				This type specifies chemical names with optional formatting tags for subscript, 
+				superscript, etc.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="bold" type="nameType">
+				<xs:annotation>
+					<xs:documentation>bold</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ital" type="nameType">
+				<xs:annotation>
+					<xs:documentation>italics</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="scriptfont" type="nameType">
+				<xs:annotation>
+					<xs:documentation>script</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="smallcap" type="nameType">
+				<xs:annotation>
+					<xs:documentation>small capitals</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sub" type="nameType">
+				<xs:annotation>
+					<xs:documentation>subscript</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="subsub" type="nameType">
+				<xs:annotation>
+					<xs:documentation>subscript in a subscript</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="subsup" type="nameType">
+				<xs:annotation>
+					<xs:documentation>superscript in a subscript</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="sup" type="nameType">
+				<xs:annotation>
+					<xs:documentation>superscript</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="supsub" type="nameType">
+				<xs:annotation>
+					<xs:documentation>subscript in a superscript</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="supsup" type="nameType">
+				<xs:annotation>
+					<xs:documentation>superscript in a superscript</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:simpleType name="tanType">
+		<xs:annotation>
+			<xs:documentation>"TAN" is a CAS-supplied document identifier.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[1-9][0-9]{7}[A-HJ-KM-NP-Z]"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="pageNumberType">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				This type specifies the physical page number of a document page.  The physical 
+				page number is what you'd get if you sequentially numbered a document's pages 
+				starting with "1".  This number is useful in electronic document processing 
+				such as scanning, where you have a sequence of scanned image files such as 
+				"page1.tif", "page2.tif", "page3.tif", even though they may pertain to an 
+				article on pages 57, 58, and 59 in a periodical.
+				
+				See also: "pageLabelType".
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:positiveInteger"/>
+	</xs:simpleType>
+	<xs:simpleType name="pageLabelType">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				This type specifies the page number as it is written, printed, or otherwise 
+				indicated on the printed or rendered page.  For example, the first page of a 
+				periodical article may be labeled with number "57" because it begins on page 57 
+				of the periodical, but it is page "1" of the article, thus the physical page 
+				number is "1", and the page label is "57".
+				
+				See also: "pageNumberType".
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="exampleType">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				This type specifies the labeled "number" for an example.  For example, if a text 
+				refers to "Example A", or "Example 7d", the exampleType value would be "A", 
+				or "7d", respectively.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="minLengthBase64Type">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				This type specifies a length-restricted Base64 data type.  The exact minimum 
+				length is not so critical, as the purpose here is to ensure a non-empty value.
+				
+				It is extended by type "structureDataType", to hold encoded chemical structure 
+				file data.  As most valid, non-trivial chemical structure files exceed 16 
+				characters, the value "16" should be reasonable.
+				
+				See "http://www.w3.org/TR/xmlschema-2/#base64Binary" for more information on 
+				this W3C XML Schema standard datatype.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:base64Binary">
+			<xs:minLength value="16"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="structureDataType">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				The "structureData" type holds an encoded chemical structure file.   The 
+				encoding is currently limited to "Base64" and the chemical structure file is 
+				currently limited to MDL Molfile V2000 format.
+				
+				Extending "minLengthBase64Type" enforces a minimum length restriction.  Should 
+				there be a valid structure file of fewer characters than "minLengthBase64Type" 
+				permits, it would need to be changed.
+				
+				See "http://www.w3.org/TR/xmlschema-2/#base64Binary" for more information on 
+				this W3C XML Schema standard datatype.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="minLengthBase64Type">
+				<xs:attribute name="type" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="MDL Molfile V2000"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="encoding" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Base64"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:annotation>
+		<xs:documentation>
+			================================================================================
+				Element definitions.
+			================================================================================
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="patentInfo">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				The "patentInfo" element contains patent metadata "tan" and "language".  "tan" 
+				is a CAS-supplied document identifier and "language" refers to the native 
+				language of the patent.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="tan" type="tanType"/>
+				<xs:element name="language" type="languageType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="patentLocation">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				The "patentLocation" element specifies a location in a patent by indicating the 
+				page number, the page label, and the example label within the page.
+				
+				It is useful to discuss the difference between "page number" and "page label".
+				
+				The "page" element identifies a page using the page's physical number as well 
+				as its labeled number.  If a document can be thought of as a sequence of 
+				consecutively numbered pages starting with page "1", the physical page number 
+				refers to the number of the page within the sequence.  The page label is what 
+				is written, printed, or otherwise indicated on the page itself.
+				
+				For example, consider a document of the following 10 pages:
+				
+					label="i" number="1"
+					label="ii" number="2"
+					label="iii" number="3"
+					label="1" number="4"
+					label="2" number="5"
+					label="3" number="6"
+					label="4" number="7"
+					label="5" number="8"
+					label="6-a" number="9"
+					label="6-b" number="10"
+				
+				When locating a page of interest in a given document, physical page numbers are 
+				often easier for machines, whereas humans typically use the numbers printed on 
+				the pages.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pageNumber" type="pageNumberType"/>
+				<xs:element name="pageLabel" type="pageLabelType"/>
+				<xs:element name="exampleLabel" type="exampleType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="name">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="nameType">
+					<xs:attribute name="lang" type="languageType" use="required"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="names">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				The "names" element is a container for multiple substance names of various 
+				languages and types.
+				
+				If a prophetic substance has a name in the document, there should be a "name" 
+				element for that name and it should have a "lang" attribute with the same value 
+				as that of the "/patent/patentInfo/language" element.
+				
+				Foreach "name" element with a "lang" value that is not "en" (English), there 
+				must immediately follow an English-translated "name" element with "lang" value 
+				"en".  (This is not enforced in the schema itself, but will be enforced within 
+				processing systems.)
+				
+				If an IUPAC name is present, or can be generated during the MDL Molfile 
+				creation process, it should be recorded in the "IUPACName" element.
+				
+				Substances with structures and no accompanying names may be present.  Therefore, 
+				"minOccurs" for the "name" element is "0".  An IUPAC Name may be generated in 
+				the structuring process, if possible, and recorded in an "IUPACName" element.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="IUPACName" type="nameType" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="structureData" type="structureDataType">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				The "structureData" element holds an encoded chemical structure file.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="propheticSubstance">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				The "propheticSubstance" element identifies a prophetic substance within a 
+				patent by specifying where it was found in the patent ("patentLocation"),  its 
+				name in various formats, and its structure.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="patentLocation"/>
+				<xs:element ref="names"/>
+				<xs:element ref="structureData"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="propheticSubstances">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				The "propheticSubstances" element is a container for prophetic substances.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="propheticSubstance"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="patent">
+		<xs:annotation>
+			<xs:documentation>
+				================================================================================
+				The "patent" element is a top-level (document) element for conveying prophetic 
+				substance information within a patent.  It contains metadata identifying the 
+				particular patent, and a list of prophetic substances that have been identified 
+				in the patent.
+				================================================================================
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="patentInfo"/>
+				<xs:element ref="propheticSubstances"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+
+

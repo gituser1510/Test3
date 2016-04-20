@@ -1,0 +1,434 @@
+2010-06-17 15:24:58.8010 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-17 15:27:20.0940 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-17 15:33:00.1424 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-17 16:11:42.2428 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-17 16:12:54.2530 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-17 16:12:59.0057 NameToStructure System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at AcroPDFLib.IAcroAXDocShim.LoadFile(String fileName)
+   at AxAcroPDFLib.AxAcroPDF.LoadFile(String fileName)
+   at NameToStructureApplication.Help.frmUserGuide.frmUserGuide_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmUserGuide.cs:line 26
+2010-06-17 16:13:50.3009 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-17 16:15:45.1639 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-17 16:20:57.0465 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-17 16:20:58.9695 NameToStructure System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at AcroPDFLib.IAcroAXDocShim.LoadFile(String fileName)
+   at AxAcroPDFLib.AxAcroPDF.LoadFile(String fileName)
+   at NameToStructureApplication.Help.frmUserGuide.frmUserGuide_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmUserGuide.cs:line 38
+2010-06-17 16:21:42.0256 NameToStructure System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at AcroPDFLib.IAcroAXDocShim.LoadFile(String fileName)
+   at AxAcroPDFLib.AxAcroPDF.LoadFile(String fileName)
+   at NameToStructureApplication.Help.frmUserGuide.frmUserGuide_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmUserGuide.cs:line 38
+2010-06-17 16:21:47.2629 NameToStructure System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at AcroPDFLib.IAcroAXDocShim.LoadFile(String fileName)
+   at AxAcroPDFLib.AxAcroPDF.LoadFile(String fileName)
+   at NameToStructureApplication.Help.frmUserGuide.frmUserGuide_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Help\frmUserGuide.cs:line 38
+2010-06-17 16:22:35.4469 NameToStructure System.AccessViolationException: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.
+   at AcroPDFLib.IAcroAXDocShim.LoadFile(String fileName)
+   at AxAcroPDFLib.AxAcroPDF.LoadFile(String fileName)
+   at NameToStructureApplication.Help.frmUserGuide.frmUserGuide_Load(Object sender, EventArgs e)
+2010-06-17 16:24:31.7639 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-17 16:26:06.0525 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-18 10:25:24.4935 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1605
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-18 15:40:10.1123 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at NameToStructureApplication.frmMain_PepsiLite.loginToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/PepsiLiteDataAccess.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/PepsiLiteDataAccess/PepsiLiteDataAccess.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/PepsiLiteDataAccess.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/PepsiLiteDataAccess/PepsiLiteDataAccess.EXE.
+
+2010-06-18 15:40:20.1755 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at NameToStructureApplication.frmMain_PepsiLite.loginToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: The same bind was seen before, and was failed with hr = 0x80070002.
+
+2010-06-18 15:40:21.7850 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at NameToStructureApplication.frmMain_PepsiLite.loginToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: The same bind was seen before, and was failed with hr = 0x80070002.
+
+2010-06-18 15:40:28.6761 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at NameToStructureApplication.frmMain_PepsiLite.loginToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = PepsiLiteDataAccess, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: The same bind was seen before, and was failed with hr = 0x80070002.
+
+2010-06-18 15:42:41.7167 NameToStructure System.MissingMethodException: Method not found: 'Boolean PepsiLiteDataAccess.DataOperations.CheckDuplicatePhase_Shipment_TAN(System.String, System.String, System.String, System.DateTime)'.
+   at NameToStructureApplication.TaskManagement.frmInsertPhaseDetails.InsertPhaseDetails_FromFile()
+   at NameToStructureApplication.TaskManagement.frmInsertPhaseDetails.btnInsert_Click(Object sender, EventArgs e)
+2010-06-18 15:42:43.3731 NameToStructure System.MissingMethodException: Method not found: 'Boolean PepsiLiteDataAccess.DataOperations.CheckDuplicatePhase_Shipment_TAN(System.String, System.String, System.String, System.DateTime)'.
+   at NameToStructureApplication.TaskManagement.frmInsertPhaseDetails.InsertPhaseDetails_FromFile()
+   at NameToStructureApplication.TaskManagement.frmInsertPhaseDetails.btnInsert_Click(Object sender, EventArgs e)
+2010-06-18 15:42:49.3891 NameToStructure System.MissingMethodException: Method not found: 'Boolean PepsiLiteDataAccess.DataOperations.CheckDuplicatePhase_Shipment_TAN(System.String, System.String, System.String, System.DateTime)'.
+   at NameToStructureApplication.TaskManagement.frmInsertPhaseDetails.InsertPhaseDetails_FromFile()
+   at NameToStructureApplication.TaskManagement.frmInsertPhaseDetails.btnInsert_Click(Object sender, EventArgs e)
+2010-06-18 15:42:54.3426 NameToStructure System.MissingMethodException: Method not found: 'Boolean PepsiLiteDataAccess.DataOperations.CheckDuplicatePhase_Shipment_TAN(System.String, System.String, System.String, System.DateTime)'.
+   at NameToStructureApplication.TaskManagement.frmInsertPhaseDetails.InsertPhaseDetails_FromFile()
+   at NameToStructureApplication.TaskManagement.frmInsertPhaseDetails.btnInsert_Click(Object sender, EventArgs e)
+2010-06-18 15:49:46.3247 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Help.frmUserGuide.InitializeComponent()
+   at NameToStructureApplication.Help.frmUserGuide..ctor()
+   at NameToStructureApplication.frmMain_PepsiLite.userGuideToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.EXE.
+
+2010-06-18 15:50:54.1420 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Help.frmUserGuide.InitializeComponent()
+   at NameToStructureApplication.Help.frmUserGuide..ctor()
+   at NameToStructureApplication.frmMain_PepsiLite.userGuideToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.EXE.
+
+2010-06-18 15:53:34.9346 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.frmCurator.InitializeComponent()
+   at NameToStructureApplication.frmCurator..ctor()
+   at NameToStructureApplication.frmMain_PepsiLite.browsePDFToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.EXE.
+
+2010-06-18 16:32:22.9422 NameToStructure System.MissingMethodException: Method not found: 'System.Data.DataTable PepsiLiteDataAccess.DataOperations.GetAllDictionaryEntries()'.
+   at NameToStructureApplication.Dictionary.frmLookUpDict.frmLookUpDict_Load(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at NameToStructureApplication.frmMain_PepsiLite.lookUpToolStripMenuItem_Click(Object sender, EventArgs e)
+2010-06-18 16:32:24.6142 NameToStructure System.MissingMethodException: Method not found: 'System.Data.DataTable PepsiLiteDataAccess.DataOperations.GetAllDictionaryEntries()'.
+   at NameToStructureApplication.Dictionary.frmLookUpDict.frmLookUpDict_Load(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at NameToStructureApplication.frmMain_PepsiLite.lookUpToolStripMenuItem_Click(Object sender, EventArgs e)
+2010-06-18 16:32:27.3331 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Help.frmUserGuide.InitializeComponent()
+   at NameToStructureApplication.Help.frmUserGuide..ctor()
+   at NameToStructureApplication.frmMain_PepsiLite.userGuideToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.EXE.
+
+2010-06-18 16:35:00.2189 NameToStructure System.NullReferenceException: Object reference not set to an instance of an object.
+   at PepsiLiteDataAccess.DataOperations.GetUserRoles() in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PepsiLiteDataAccess\DataOperations.cs:line 1642
+   at NameToStructureApplication.Forms.frmLogin.frmLogin_Load(Object sender, EventArgs e) in E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\NameToStructureApplication\Forms\frmLogin.cs:line 65
+2010-06-18 16:55:06.9757 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Help.frmUserGuide.InitializeComponent()
+   at NameToStructureApplication.Help.frmUserGuide..ctor()
+   at NameToStructureApplication.frmMain_PepsiLite.userGuideToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.DLL.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib.EXE.
+LOG: Attempting download of new URL file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/AxInterop.AcroPDFLib/AxInterop.AcroPDFLib.EXE.
+
+2010-06-18 16:55:33.4932 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Help.frmUserGuide.InitializeComponent()
+   at NameToStructureApplication.Help.frmUserGuide..ctor()
+   at NameToStructureApplication.frmMain_PepsiLite.userGuideToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: The same bind was seen before, and was failed with hr = 0x80070002.
+
+2010-06-18 16:55:37.5248 NameToStructure System.IO.FileNotFoundException: Could not load file or assembly 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+File name: 'AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at NameToStructureApplication.Help.frmUserGuide.InitializeComponent()
+   at NameToStructureApplication.Help.frmUserGuide..ctor()
+   at NameToStructureApplication.frmMain_PepsiLite.userGuideToolStripMenuItem_Click(Object sender, EventArgs e)
+
+=== Pre-bind state information ===
+LOG: User = GVKBIO\sairam.punyamantula
+LOG: DisplayName = AxInterop.AcroPDFLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+ (Fully-specified)
+LOG: Appbase = file:///E:/Working Projects/Pepsi-Lite_NameToStructure/NameToStructureApplication/PEPSILiTEUpdates/bin/Debug/
+LOG: Initial PrivatePath = NULL
+Calling assembly : PepsiLiteApplication, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: E:\Working Projects\Pepsi-Lite_NameToStructure\NameToStructureApplication\PEPSILiTEUpdates\bin\Debug\PEPSILiTE-Updates.vshost.exe.Config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Policy not being applied to reference at this time (private, custom, partial, or location-based assembly bind).
+LOG: The same bind was seen before, and was failed with hr = 0x80070002.
+

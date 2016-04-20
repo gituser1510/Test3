@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<ALLProperties>
+  <MainNodes>
+    <NodeName>Common</NodeName>
+    <NodeName>Desirability</NodeName>
+    <NodeName>Other</NodeName>
+    <NodeName>Qik</NodeName>
+    <NodeName>Rare</NodeName>
+    <NodeName>Wyeth_Models</NodeName>
+    <NodeName>Pfizer</NodeName>
+    <NodeName>Local</NodeName>
+    <NodeName>MyProperties</NodeName>
+    
+  </MainNodes>
+
+  - <Common>
+    <Properties>
+      <PROP_NAME>Acid pKa 1</PROP_NAME>
+      <PROP_HELP>The pKa of the most acidic proton in the main structure. Lower means more acidic.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>84</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Base pKa 1</PROP_NAME>
+      <PROP_HELP>The pKa of the conjugate acid of the most basic site of the main structure. Higher means more basic.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>87</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Exact Mol Weight</PROP_NAME>
+      <PROP_HELP>The mono-isotopic mass.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>88</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>HBond Acceptor</PROP_NAME>
+      <PROP_HELP>The number of hydrogen bond acceptors in the main structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>89</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>HBond Donor Heteroatoms</PROP_NAME>
+      <PROP_HELP>The number of nitrogens and oxygens bearing a hydrogen in the main structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>2</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Lipinski Violations</PROP_NAME>
+      <PROP_HELP>The number of Lipinski rules (MW &lt;= 500, alogP &lt;= 5, N+O &lt;= 10, HBDa &lt;= 5) violated.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>3</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Molecular Weight</PROP_NAME>
+      <PROP_HELP>The molecular weight of the structure, as drawn.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>109</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Nitrogen + Oxygen Count</PROP_NAME>
+      <PROP_HELP>The number of nitrogen and oxygen atomss in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>90</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Rotatable Bonds</PROP_NAME>
+      <PROP_HELP>The number of rotatable bonds. Weber suggests 10 or fewer for oral bioavailability.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>4</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>TPSA</PROP_NAME>
+      <PROP_HELP>Van der Waals Topological Polar Surface Area. Weber suggest cpds with TPSA &gt; 140 are rarely orally bioavailable.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>1</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>cLogP</PROP_NAME>
+      <PROP_HELP>Daylight calculated logP (log octanol/water partition coefficient).</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>85</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>cLogP_Comment</PROP_NAME>
+      <PROP_HELP>Comments on the Daylight clogP calculation. </PROP_HELP>
+      <PROP_TYPE>VAL_TEXT</PROP_TYPE>
+      <PROP_ID>86</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>logD @ pH 7.4</PROP_NAME>
+      <PROP_HELP>Pipeline Pilot's logD (octanol/water distribution coefficient) at pH 7.4</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>5</PROP_ID>
+    </Properties>
+  </Common>
+  <Desirability>
+    <Properties>
+      <PROP_NAME>CNS</PROP_NAME>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>122</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Fragment</PROP_NAME>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>123</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Fragment Kinase</PROP_NAME>
+      <PROP_HELP>Uses Kinase Scaffold</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>125</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>General</PROP_NAME>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>118</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>General Kinase</PROP_NAME>
+      <PROP_HELP>Uses Kinase Scaffold</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>119</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Lead</PROP_NAME>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>120</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Lead Kinase</PROP_NAME>
+      <PROP_HELP>Uses Kinase Scaffold</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>124</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Peripheral</PROP_NAME>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>121</PROP_ID>
+    </Properties>
+  </Desirability>
+  - <Other>
+    <Properties>
+      <PROP_NAME>Bond Count</PROP_NAME>
+      <PROP_HELP>The number of bonds in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>9</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Carbon Count</PROP_NAME>
+      <PROP_HELP>The number of carbon atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>91</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Chiral Flag</PROP_NAME>
+      <PROP_HELP>Chiral flag is 1 if the structure is chiral, else 0.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>16</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Flourine Count</PROP_NAME>
+      <PROP_HELP>The number of flourine atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>11</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>HBond Donor Hydrogens</PROP_NAME>
+      <PROP_HELP>The number of hydrogens attached to nitrogen or oxygen in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>15</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Halogen Count</PROP_NAME>
+      <PROP_HELP>The number of halogens (F, Cl, Br, I) in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>12</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Hydrogen Count</PROP_NAME>
+      <PROP_HELP>The number of hydrogen atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>92</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Mol Formula</PROP_NAME>
+      <PROP_HELP>The molecular formula of the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_TEXT</PROP_TYPE>
+      <PROP_ID>94</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Nitrogen Count</PROP_NAME>
+      <PROP_HELP>The number of nitrogen atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>112</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Oxygen Count</PROP_NAME>
+      <PROP_HELP>The number of oxygen atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>95</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Phosphorus Count</PROP_NAME>
+      <PROP_HELP>The number of phosphorus atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>13</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Sulfur Count</PROP_NAME>
+      <PROP_HELP>The number of sulfur atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>14</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>cMR</PROP_NAME>
+      <PROP_HELP>Pipeline Pilot's calculated Molar Refractivity.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>10</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>logD @ pH 2.0</PROP_NAME>
+      <PROP_HELP>Pipeline Pilot's calculation of the octanol/water distribution coefficient at pH 2.0.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>6</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>logD @ pH 4.0</PROP_NAME>
+      <PROP_HELP>Pipeline Pilot's calculation of the octanol/water distribution coefficient at pH 4.0.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>7</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>logD @ pH 6.2</PROP_NAME>
+      <PROP_HELP>Pipeline Pilot's calculation of the octanol/water distribution coefficient at pH 6.2.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>93</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>logD @ pH 9.0</PROP_NAME>
+      <PROP_HELP>Pipeline Pilot's calculation of the octanol/water distribution coefficient at pH 9.0.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>8</PROP_ID>
+    </Properties>
+  </Other>
+  - <Qik>
+    <Properties>
+      <PROP_NAME>qp_ACxsqrtDN-over-SA</PROP_NAME>
+      <PROP_HELP>
+        accptHB*sqrt(donorHB)/volume - an index of cohesive interactions in solids;
+        see Bioorg Med Chem Lett 10, 1155 (2000)
+      </PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>53</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_CIlogS</PROP_NAME>
+      <PROP_HELP>Alternative, conformation-independent prediction of aqueous solubility.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>60</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_CNS</PROP_NAME>
+      <PROP_HELP>The predicted central nervous system activity on a -2 (inactive) to +2 (active) scale.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>43</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_EA-eV</PROP_NAME>
+      <PROP_HELP>The PM3 calculated electron affinity.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>66</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_FISA</PROP_NAME>
+      <PROP_HELP>The hydrophilic component of the SASA (SASA on N, O, and H on heteroatom).</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>115</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_FOSA</PROP_NAME>
+      <PROP_HELP>The hydrophobic component of the SASA (saturated carbon and attached hydrogen).</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>117</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_HumanAbs</PROP_NAME>
+      <PROP_HELP>Predicted qualitative human oral absorption - 1, 2, or 3 for low, medium, or high.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>69</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_IP-eV</PROP_NAME>
+      <PROP_HELP>The PM3 calculated ionization potential.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>65</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_Jm</PROP_NAME>
+      <PROP_HELP>Predicted maximum transdermal transport rate, Kp x MW x S ((ug cm^(-2) hr^(-1)). Kp and S are obtained from the aqueous solubility and skin permeability, qp_logKp and qp_logS. This property is only written to the output file: it is not used in any other calculations.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>81</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_MW</PROP_NAME>
+      <PROP_HELP>The molecular weight of the molecule.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>44</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_PCaco</PROP_NAME>
+      <PROP_HELP>The predicted apparent Caco-2 cell permeability in nm/sec.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>62</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_PISA</PROP_NAME>
+      <PROP_HELP>The pi (carbon and attached hydrogen) component of the SASA.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>47</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_PMDCK</PROP_NAME>
+      <PROP_HELP>The predicted apparent MDCK cell permeability in nm/sec - Affymax data.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>63</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_PSA</PROP_NAME>
+      <PROP_HELP>Polar (N and O) van der Waals surface area.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>73</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_RuleOf5</PROP_NAME>
+      <PROP_HELP>Number of violations for Lipinski's rule of five.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>75</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_SASA</PROP_NAME>
+      <PROP_HELP>The total solvent-accessible surface area in Angstroms^2 using a probe with 1.4 Angstrom radius.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>46</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_SAamideO</PROP_NAME>
+      <PROP_HELP>SASA for amide oxygens.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>72</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_SAfluorine</PROP_NAME>
+      <PROP_HELP>SASA for fluorines.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>71</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_WPSA</PROP_NAME>
+      <PROP_HELP>The weakly polar component of the SASA (halogens, P, and S).</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>48</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_accptHB</PROP_NAME>
+      <PROP_HELP>The estimated number of hydrogen bonds that would be accepted by the solute from water molecules in an aqueous solution.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>51</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_dip-sq-over-V</PROP_NAME>
+      <PROP_HELP>
+        The (dipole moment)^2/molecular volume. Key term in the Kirkwood-Onsager
+        eqution for the free energy of solvation of a dipole with volume V.
+      </PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>52</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_dipole</PROP_NAME>
+      <PROP_HELP>
+        The computed dipole moment for the molecule.
+      </PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>45</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_donorHB</PROP_NAME>
+      <PROP_HELP>The estimated number of hydrogen bonds that would be donated by the solute to watermolecules in an aqueous solution.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>50</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_glob</PROP_NAME>
+      <PROP_HELP>The globularity descriptor  = 4*pi*r^2/SASA where r is the radius of a sphere with a volume equal to the molecular volume. glob -&gt; 1.0 for a spherical molecule.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>54</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logHERG</PROP_NAME>
+      <PROP_HELP>Predicted log IC50 for blockage of mammalian HERG K+ channels.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>61</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logKhsa</PROP_NAME>
+      <PROP_HELP>The predicted log K'hsa for serum albumin binding.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>68</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logKp</PROP_NAME>
+      <PROP_HELP>The predicted log of the skin permeability.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>64</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logPC16</PROP_NAME>
+      <PROP_HELP>The predicted log of the hexadecane/gas partition coefficient.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>56</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logPo-over-w</PROP_NAME>
+      <PROP_HELP>The predicted log of the octanol/water partition coefficient.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>59</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logPo-over-wc</PROP_NAME>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>82</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logPoct</PROP_NAME>
+      <PROP_HELP>The predicted log of the octanol/gas partition coefficient.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>57</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logPw</PROP_NAME>
+      <PROP_HELP>
+        The predicted log of the water/gas partition coefficient. Note: the solute's
+        free energy of hydration = -2.3RT QPlogPw for gas phase -&gt; water transfer.
+      </PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>58</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logS</PROP_NAME>
+      <PROP_HELP>The predicted aqueous solubility, log S. S in moles/liter is the concentration of the solute in a saturated solution in equilibrium with the crystalline solid.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>116</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_logSc</PROP_NAME>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>83</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-NandO</PROP_NAME>
+      <PROP_HELP>Number of nitrogens and oxygens.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>74</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-acid</PROP_NAME>
+      <PROP_HELP>The count of carboxylic acid groups.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>114</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-amide</PROP_NAME>
+      <PROP_HELP>The count of non-conjugated amide groups.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>40</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-amidine</PROP_NAME>
+      <PROP_HELP>The count of amidine and guanidine groups.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>39</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-amine</PROP_NAME>
+      <PROP_HELP>The count of non-conjugated amine groups.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>38</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-in34</PROP_NAME>
+      <PROP_HELP>Number of atoms in 3 and 4-membered rings.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>77</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-in56</PROP_NAME>
+      <PROP_HELP>Number of atoms in 5 and 6-membered rings.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>78</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-metabol</PROP_NAME>
+      <PROP_HELP>The number of likely metabolic reactions that are listed in the QP.out file.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>67</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-nonHatm</PROP_NAME>
+      <PROP_HELP>Number of heave atoms (non-hydrogen atoms).</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>80</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-noncon</PROP_NAME>
+      <PROP_HELP>Number of atoms in rings that can not conjugate (e.g., 3 for cyclopentene).</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>79</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-rctvFG</PROP_NAME>
+      <PROP_HELP>The number of reactive functional groups.  The presence of these groups can lead to false positives in HTS assays and to decomposition/reactivity/toxicity problems in vivo.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>42</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-ringatoms</PROP_NAME>
+      <PROP_HELP>Number of atoms in rings.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>76</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-rotor</PROP_NAME>
+      <PROP_HELP>The number of non-trivial (not CX3) non-hindered (not alkene, amide, small ring) rotatable bonds.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>41</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_num-stars</PROP_NAME>
+      <PROP_HELP>The number of violations of the 95% ranges for known drugs for the descriptors and predicted properties.  Molecules with qp_num_stars &gt; 0 are less drug-like.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>37</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_pct-HumanAbs</PROP_NAME>
+      <PROP_HELP>Predicted human oral absorption on 0 to 100% scale.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>70</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_polrz</PROP_NAME>
+      <PROP_HELP>The predicted polarizability in Angstroms^3.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>55</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>qp_volume</PROP_NAME>
+      <PROP_HELP>The total solvent-accessible volume in Angstroms^3 using a probe with 1.4 Angstrom radius.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>49</PROP_ID>
+    </Properties>
+  </Qik>
+  - <Rare>
+    <Properties>
+      
+      <PROP_NAME>AverageBondLength</PROP_NAME>
+      <PROP_HELP>The average bond length of the structure in Angstroms.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>23</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Canonical_Smiles</PROP_NAME>
+      <PROP_HELP>The canonical smiles representation of the structure.  There is only one canonical smiles for a structure.</PROP_HELP>
+      <PROP_TYPE>VAL_TEXT</PROP_TYPE>
+      <PROP_ID>26</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>FormalCharge</PROP_NAME>
+      <PROP_HELP>The formal charge of the structure. </PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>100</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>IsChiral</PROP_NAME>
+      <PROP_HELP>IsChiral defines the chirality of the structure.  IsChiral is 1 for chiral structure, else 0. </PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>113</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Minimized_Energy</PROP_NAME>
+      <PROP_HELP>The minimized energy of the 3D structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>24</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Molecular_FractionalPolarSASA</PROP_NAME>
+      <PROP_HELP>The fractional molecular polar surface area of the structure. </PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>28</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Molecular_FractionalPolarSurfaceArea</PROP_NAME>
+      <PROP_HELP>The molecular fractional polar surface area of the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>104</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Molecular_PolarSASA</PROP_NAME>
+      <PROP_HELP>The molecular polar solvent accessible surface area of the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>103</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Molecular_PolarSurfaceArea</PROP_NAME>
+      <PROP_HELP>The molecular polar surface area of the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>30</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Molecular_SASA</PROP_NAME>
+      <PROP_HELP>The molecular solvent accessible surface area of the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>29</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Molecular_SAVol</PROP_NAME>
+      <PROP_HELP>The molecular surface area volume of the structure in 3D.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>25</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Molecular_Solubility</PROP_NAME>
+      <PROP_HELP>The molecular solubility of the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>105</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Molecular_SurfaceArea</PROP_NAME>
+      <PROP_HELP>The molecular surface area of the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>31</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Molecular_Volume</PROP_NAME>
+      <PROP_HELP>The molecular volume of the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>102</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_AromaticBonds</PROP_NAME>
+      <PROP_HELP>The number of aromatic bonds in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>19</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_AromaticRings</PROP_NAME>
+      <PROP_HELP>The number of aromatic rings in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>97</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_BridgeBonds</PROP_NAME>
+      <PROP_HELP>The number of bridge bonds in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>98</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_BridgeHeadAtoms</PROP_NAME>
+      <PROP_HELP>The number of bridge atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>32</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_ChainAssemblies</PROP_NAME>
+      <PROP_HELP>The number of chain assemblies in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>108</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_ExplicitHydrogens</PROP_NAME>
+      <PROP_HELP>The number of explicit hydrogens in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>99</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_NegativeAtoms</PROP_NAME>
+      <PROP_HELP>The number of atoms containing negative charges in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>21</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_PositiveAtoms</PROP_NAME>
+      <PROP_HELP>The number of atoms containing positive charges in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>22</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_RingAssemblies</PROP_NAME>
+      <PROP_HELP>The number of ring assemblies in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>17</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_RingBonds</PROP_NAME>
+      <PROP_HELP>The number of ring bonds in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>20</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_Rings</PROP_NAME>
+      <PROP_HELP>The number of (aromatic and non-aromatic) rings in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>18</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_SpiroAtoms</PROP_NAME>
+      <PROP_HELP>The number of spiro atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>106</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_StereoAtoms</PROP_NAME>
+      <PROP_HELP>The number of stereo atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>36</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_StereoBonds</PROP_NAME>
+      <PROP_HELP>The number of stereo bonds in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>35</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_TerminalRotomers</PROP_NAME>
+      <PROP_HELP>The number of terminal rotomers in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>33</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_UnknownStereoAtoms</PROP_NAME>
+      <PROP_HELP>The number of unknown stereo atoms in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>107</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Num_UnknownStereoBonds</PROP_NAME>
+      <PROP_HELP>The number of unknown stereo bonds in the structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>34</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Smiles</PROP_NAME>
+      <PROP_HELP>The smiles representation of the structure.  There could be many smiles representation of a structure, but one smiles is reported..</PROP_HELP>
+      <PROP_TYPE>VAL_TEXT</PROP_TYPE>
+      <PROP_ID>27</PROP_ID>
+    </Properties>
+    <Properties>
+      
+      <PROP_NAME>Strain_Energy</PROP_NAME>
+      <PROP_HELP>The strain energy of the molecule in the minimized 3D structure.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>101</PROP_ID>
+    </Properties>
+  </Rare>
+  <Wyeth_Models>
+  <Properties>
+    
+    <PROP_NAME>BBB Model QikProp</PROP_NAME>
+    <PROP_HELP>BBB Model (QikProp) implemented here is from Jorgensens QikProp program using 104 training compounds. This model was validated against 240 Wyeth compounds with known measured B/P ratio and a good correlation with experimental results was observed (R2=0.65).Recommendation: A BBB value of 1 indicates BBB penetration, while value of 0 indicates no BBB penetration.</PROP_HELP>
+    <PROP_TYPE>VAL_NUM</PROP_TYPE>
+    <PROP_ID>110</PROP_ID>
+  </Properties>
+  <Properties>
+    
+    <PROP_NAME>BBB Model Wyeth</PROP_NAME>
+    <PROP_HELP>BBB Model (Wyeth) is an in-house model for predicting BBB, which was developed using 240 in-house compounds. The model was validated against published categorical dataset of ~1000 CNS compounds where 80% of the known CNS active compounds and 75% of CNS inactive were classified correctly. Recommendation: A BBB value of 1 indicates BBB penetration, while value of 0 indicates no BBB penetration.</PROP_HELP>
+    <PROP_TYPE>VAL_NUM</PROP_TYPE>
+    <PROP_ID>111</PROP_ID>
+  </Properties>
+  </Wyeth_Models>
+  <Pfizer>
+    <Properties>
+      <PROP_NAME>CAN Alerts</PROP_NAME>
+      <PROP_HELP></PROP_HELP>
+      <PROP_TYPE>VAL_TEXT</PROP_TYPE>
+      <PROP_ID>0</PROP_ID>
+    </Properties>
+  </Pfizer>
+  <Local>
+    <Properties>
+      <PROP_NAME>ALOGP</PROP_NAME>
+      <PROP_HELP>Performs Log of the octanol/water partition coefficient.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>0</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>MW</PROP_NAME>
+      <PROP_HELP>Performs a molecular weight calculation on the input chemistries.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>0</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Rotlbonds</PROP_NAME>
+      <PROP_HELP>Performs a calculation to define the number of rotational bonds within the input chemistries, which are considered to be meaningful for molecular mechanics. All terminal H atoms are ignored (e.g., methyl groups are not considered).</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>0</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Hbond acceptor</PROP_NAME>
+      <PROP_HELP>Performs a hydrogen bond calculation to determine the number of hydrogen bond acceptors in the input chemistries.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>0</PROP_ID>
+    </Properties>
+    <Properties>
+      <PROP_NAME>Hbond donor</PROP_NAME>
+      <PROP_HELP>Performs a hydrogen donor calculation to determine the number of hydrogen bond donors in the input chemistries.</PROP_HELP>
+      <PROP_TYPE>VAL_NUM</PROP_TYPE>
+      <PROP_ID>0</PROP_ID>
+    </Properties>
+  </Local>
+  <MyProperties>
+    
+  </MyProperties>
+</ALLProperties>

@@ -1,0 +1,113 @@
+
+################# STANDARD LICENSE ##################################
+#                                                                   #
+#   This file is a license for Openeye Scientific Software.  Any    #
+#   modifications to this file may invalidate the license.          #
+#                                                                   #
+#   GVK Biosciences Private Limited                                 #
+#   Hyderabad, India                                                #
+#                                                                   #
+#   Wed Mar  3 12:11:46 2010                                        #
+#####################################################################
+#PRODUCT: afitt
+#EXP_DATE: 2011 03 02
+#FEATURES: beta
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 8e098290d0d2822111b92c38598b0ff96405bdcb1bd875b09dd847c89a99f76a
+#PRODUCT: bioisostere
+#EXP_DATE: 2011 03 02
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 3dc88528692b68ac21f2fc1ae4b8c13957b7979c93d1cd21a364a55d24735af0
+#PRODUCT: eon
+#EXP_DATE: 2011 03 02
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 61d064d525cc3603dda4d8c19e64d76540fc0701f48e9907fc9d5f664dd7f3ef
+#PRODUCT: filter
+#EXP_DATE: 2011 03 02
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 62beb6bceddeb7a5e44bf1e1df7f662163aab380847c0d8a1001290b95659776
+#PRODUCT: fred2
+#EXP_DATE: 2011 03 02
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 765fa8bd4b4707682a9b59fddf57ec082678778f973683805b373389d55ec641
+#PRODUCT: iupac
+#EXP_DATE: 2011 03 02
+#FEATURES: python;java
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: d5a546b3cad28a90c551f3d040ce6650feb431eb62e9591e7e08f8bf104611f0
+#PRODUCT: oechem
+#EXP_DATE: 2011 03 02
+#FEATURES: python;java
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: eba2bc03900cc608337ffaff1547cca818a3fa7506dd1ec67ac9311bfa8003ca
+#PRODUCT: oedepict
+#EXP_DATE: 2011 03 02
+#FEATURES: python;java
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 37d05267aeb81f90e52a550e2ccfd6b681d54ff597ec6dc4bb88778006c3290b
+#PRODUCT: omega
+#EXP_DATE: 2011 03 02
+#FEATURES: gas-phase
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 1762759846abcc403138b54d1a5d1c3640a3529b44bf8cc1078172cf87add7c4
+#PRODUCT: quacpac
+#EXP_DATE: 2011 03 02
+#FEATURES: beta;python;java
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: a8483ca64e58977ae7d1175f34e5f5bc96f19604d17abd54dbc930d9e7f5bb7c
+#PRODUCT: rocs
+#EXP_DATE: 2011 03 02
+#FEATURES: parallel
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 80377cab8cafa5fba831d21f71ae0f9b65bc1565ce7d2d97b5b3db9b8ef8edcd
+#PRODUCT: shape
+#EXP_DATE: 2011 03 02
+#FEATURES: molecules;grids;python;java
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: b2ed69cb20d346b0aaaffcd41a74fbb8febfdc21a93181649309a0906184fc01
+#PRODUCT: mol2smarts
+#EXP_DATE: 2011 03 02
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: aaa5b5cf423064d9b52ae20b9d6e2981aa19bc19a2cbb045258d104b7bda82cd
+#PRODUCT: szybki
+#EXP_DATE: 2011 03 02
+#FEATURES: python;java
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: d0ef319482551e84c92ef3a1e0462174035732f6257660a99648aec7f5bd8255
+#PRODUCT: case
+#EXP_DATE: 2011 03 02
+#FEATURES: python;java
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 7b135e623c1a99b108b8464e512c1998360da65dc51ce08a28b56fdbca9eac71
+#PRODUCT: vida
+#EXP_DATE: 2011 03 02
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: ae62458dbbc4dd268a783f29f1ae53baa671ed0a1a31ecb4df9f4d49e9faeacd
+#PRODUCT: vivant
+#EXP_DATE: 2011 03 02
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 3febaf7be153f180e0fef09a03c8a35aeec446c269140b975a8c1bec0ec29eef
+#PRODUCT: zap
+#EXP_DATE: 2011 03 02
+#LICENSEE: GVK Biosciences Private Limited
+#SITE: Hyderabad, India
+LICENSE_KEY: 6f58ca86eb7ec4aac2b3d354d00487b8adab0938ea877450a2be0967ed69ce31
+
+

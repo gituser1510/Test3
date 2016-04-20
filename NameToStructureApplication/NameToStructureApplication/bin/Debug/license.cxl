@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--PLEASE DO NOT MODIFY THIS FILE AND BE AWARE THAT THE FILE CONTAINS CONFIDENTIAL INFORMATION.-->
+<ChemAxon>
+<License>
+<Field Name="Software" Value="Marvin Applets"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFEPOLBwFs3f36bkuHldOQAmmwIqFAhQKKxRPzSGEstqFIye0KlIr5/7n7g=="/>
+</License>
+<License>
+<Field Name="Software" Value="Marvin Beans"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFFtLzf+V2gfMfL4kP8+Qi0HwRJ+bAhRJfJOYufxqRdEMid6O9iub8ekE4Q=="/>
+</License>
+<License>
+<Field Name="Software" Value="Instant JChem"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="B/S/P/E" Value="Enterprise"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFCGXK+6N3hyrLbbqf8utpGi8XV9TAhQymdRSiCMO4kaTAaLs0PTp7Kx1PA=="/>
+</License>
+<License>
+<Field Name="Software" Value="JChem Base"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Search/Min" Value="Unlimited"/>
+<Signature Value="MC0CFDMkWKvfn+CD9+QRqZQUVbXudPtRAhUAgilFWNwleBHjwgtP7VMNcqeTvxQ="/>
+</License>
+<License>
+<Field Name="Software" Value="JChem Cartridge"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFGJJkMWb0A/n2EEG7XnJTn5/bwSLAhQkC1+ZpsN/OfF/lTeYBUC5eWIMCw=="/>
+</License>
+<License>
+<Field Name="Software" Value="Standardizer"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFGxtSWrAQeu58ihn11BKzKsSYVc2AhResjlbh1zI7TWGtmdVYJZiDjM4rA=="/>
+</License>
+<License>
+<Field Name="Software" Value="Screen"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="B/S/P/E" Value="Professional"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MC0CFB2nPre/zsyyslq6LeAd8bpus74UAhUAgmQZDq/8/nxBcJlD8Zjgv9pODgk="/>
+</License>
+<License>
+<Field Name="Software" Value="Reactor"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="B/S/P/E" Value="Professional"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFELPYLDtP1Ia4IkRRpIdCHCRPTgZAhQtCv6SfrlxIpd2AsxY7UuCVcdmRg=="/>
+</License>
+<License>
+<Field Name="Software" Value="Fragmenter"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFHzY1IQZ16/wPRMs/PePcQVE2wq1AhRHHBOwhGy65363BQCE3ZkKOPfLMw=="/>
+</License>
+<License>
+<Field Name="Software" Value="JKlustor"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="B/S/P/E" Value="Standard"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MC4CFQCCJcU6uRdG7kEcCiusBb8nhVcVvAIVAILcYyQ9/XJ7WwIEuG+0mv26efeL"/>
+</License>
+<License>
+<Field Name="Software" Value="Metabolizer"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFCC35pclhnfMDZ8mDAWcOyAFqcT/AhQMCK9DXxR+/b4UktmMl409JKigrg=="/>
+</License>
+<License>
+<Field Name="Software" Value="Markush Search"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFBm7shwbvcz36v37et2UUoWvzpDiAhQ87g8jv9vCiCsc+OgtZrlpR6URLw=="/>
+</License>
+<License>
+<Field Name="Software" Value="IQSAR"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFDfyCW8+lCSER4//A5lf+si8kFVcAhRc9YMeG++X6ddgiFt5/5EO9A91DA=="/>
+</License>
+<License>
+<Field Name="Software" Value="Structure to Name"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFDXsSSR+NGS+pgqsvjMGc/W+7U79AhRlTRNher6FkG+gTGixgNWc2kr0wg=="/>
+</License>
+<License>
+<Field Name="Software" Value="Name to Structure"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFBVeF1I7KQQQ1aOotmy8FpZBw78RAhRGrwu1qCJer7AM52ytlQHxgMxElA=="/>
+</License>
+<License>
+<Field Name="Software" Value="JChem for Excel"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFBYyyPJYGk8628slX3q+Xr1CemlsAhQqASIXdJoVIq5ZeT5xiApDunKYVw=="/>
+</License>
+<License>
+<Field Name="Software" Value="Calculations Pack"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MC0CFEOXKvQHREVfr5/2dxQsvMbn9LHjAhUAjTa1CkUk9YwF+FZ2vdJzmaQ+r74="/>
+</License>
+<License>
+<Field Name="Software" Value="Web Services Server"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MCwCFCGwu2w7RoGdxZoSeA9dtHu+ZK/8AhQqemO5OFXl15wCEVa7xRHgEtRPWQ=="/>
+</License>
+<License>
+<Field Name="Software" Value="Structure search"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Signature Value="MC0CFD3gvnaFg/qBApnj5mYe2rc12P+/AhUAjGqA+IDOdOgGfE709SyTc7Dpiv0="/>
+</License>
+<License>
+<Field Name="Software" Value="Protonation Plugin Group"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MCwCFHfF9LxP6o6vIl1Chdlq4wHZAtONAhRNYkzcQ1zth/8KrGBcbBfxH4voRw=="/>
+</License>
+<License>
+<Field Name="Software" Value="Partitioning Plugin Group"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MC0CFQCCPLhGRR6ye9AQKWP8l0Hly+cBPQIUT9VMyAfsDGrjCWos3yBOfpy63AI="/>
+</License>
+<License>
+<Field Name="Software" Value="Charge Plugin Group"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MCwCFEca9rx07mD3OGs0nDUsz0+/z+XHAhRM6LL25+VyV+XokoD+6r/cbjsBHA=="/>
+</License>
+<License>
+<Field Name="Software" Value="Isomers Plugin Group"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MC4CFQCS59RQotsZgTPRIXgneeHqSQGj2gIVAJR2dwW/oA82YSasQHFMGlgVlEYK"/>
+</License>
+<License>
+<Field Name="Software" Value="Conformation Plugin Group"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MC4CFQCOK5YW0XR7dkPY8VXe4DfMEe9xvAIVAIVER6or+pDzyd+s9F8hCNJOot1H"/>
+</License>
+<License>
+<Field Name="Software" Value="Geometry Plugin Group"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MCwCFAHuGmv6J+rSLqTxzkvxCBWMHwAiAhR/dQgz1OqyW1ooMM/BXI72TT832A=="/>
+</License>
+<License>
+<Field Name="Software" Value="Huckel Analysis Plugin"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MC0CFDgcW4FA/LkymLpJJjYxcrrLjr5MAhUAi8KM+3POue0KRodsZ05qgTy6PUg="/>
+</License>
+<License>
+<Field Name="Software" Value="Refractivity Plugin"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MCwCFGZgNY0KjiwtFyFoqr9ddNzxvpEsAhRGe5WTd4vkA5N7TgkgA4v7OMQgJA=="/>
+</License>
+<License>
+<Field Name="Software" Value="HBDA Plugin"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MCwCFCF3gUTIEwuuqEDc/mW2yVnZxSEqAhQM1gx9yja5t1S59eVheLx96l8NWQ=="/>
+</License>
+<License>
+<Field Name="Software" Value="Markush Enumeration Plugin"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MCwCFBUThCnUD5y8llwlkgbLqpvEgDQnAhQ87DUknXXA/rxwxODJTz7a2j20VQ=="/>
+</License>
+<License>
+<Field Name="Software" Value="Solubility Plugin"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MCwCFAKHq0+BSI1VB3ekDNdU8E0HMAmmAhRItEhZPGJ7DpD/8SiG28b6OAckFg=="/>
+</License>
+<License>
+<Field Name="Software" Value="IUPAC Naming Plugin"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MCwCFFJ9nH3x0Hz4TJ2eiwG4UsdPkOBHAhQrv/BMnUdDmaIciLfJk6R2oqBm4w=="/>
+</License>
+<License>
+<Field Name="Software" Value="Structural Frameworks Plugin"/>
+<Field Name="License Term" Value="Academic Research"/>
+<Field Name="Licensee" Value=".ac"/>
+<Field Name="Number of Users" Value="Unlimited"/>
+<Field Name="Expiration Date" Value="2011-05-06"/>
+<Field Name="Support Expiration Date" Value="2011-05-06"/>
+<Field Name="Comment" Value="Academic package license for academic research. This is a personal license for authorized academic package applicants (listing here: http://www.chemaxon.com/apl/index_i.html). &#13;&#10;If you would like to obtain a personal academic package license please visit: http://www.chemaxon.com/acpack_conditions.html&quot;/&gt;"/>
+<Restriction Name="Server Use" Value="Not Allowed"/>
+<Restriction Name="Single/Batch" Value="Batch"/>
+<Signature Value="MCwCFBITM96DxZnCA8QWNGmXofronu6fAhQ9ubaHhJ9ej22BMUFUBqvOl+RwDg=="/>
+</License>
+</ChemAxon>

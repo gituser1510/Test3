@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ADOptConfigSettings>
+  <!--ADOpt Sheet Coloring properties details -->
+  <SheetColor>
+    <SCProperty Name="BEI" MinValue="15" MaxValue="15 - 18" MinMaxValue="18" Precedence="MAXIMUM" ColorValue="-32640#-32768#-256" AllUsers="N">
+    </SCProperty>
+    <SCProperty Name="IC50_T" MinValue="15" MaxValue="15 - 18" MinMaxValue="18" Precedence="MINIMUM" ColorValue="-32640#-32768#-256" AllUsers="N">
+    </SCProperty>
+    <SCProperty Name="MolWeight_T" MinValue="15" MaxValue="0 - 5" MinMaxValue="18" Precedence="MAXIMUM" ColorValue="-32640#-32768#-256" AllUsers="N">
+    </SCProperty>
+    <SCProperty Name="clogP_T" MinValue="15" MaxValue="15 - 18" MinMaxValue="18" Precedence="MINIMUM" ColorValue="-32640#-32768#-256" AllUsers="N">
+    </SCProperty>
+    <SCProperty Name="BEI1" MinValue="15" MaxValue="15 - 18" MinMaxValue="18" Precedence="MAXIMUM" ColorValue="-32640#-32768#-256" AllUsers="N">
+    </SCProperty>
+    <SCProperty Name="BEI2" MinValue="15" MaxValue="15 - 18" MinMaxValue="18" Precedence="MINIMUM" ColorValue="-32640#-32768#-256" AllUsers="N">
+    </SCProperty>
+    <SCProperty Name="BEI2" MinValue="15" MaxValue="15 - 18" MinMaxValue="18" Precedence="MINIMUM" ColorValue="-32640#-32768#-256" AllUsers="Y">
+    </SCProperty>
+  </SheetColor>
+  <SheetRowColoring>
+    <SRowColor SheetName="-" RowIndex="-" ColorValue="-" />
+    <SRowColor SheetName="aseee" RowIndex="3" ColorValue="-32640" />
+  </SheetRowColoring>
+  <PropertyUnits>
+    <Unit Name="Milli Molar" UOM="mm" />
+    <Unit Name="Micro Molar" UOM="um" />
+    <Unit Name="Nano Molar" UOM="nm" />
+    <Unit Name="Percent Inhibition" UOM="Inh" />
+  </PropertyUnits>
+  <BalanceOptimization>
+    <BOList Name="" Experiment="" Equation="" CutOff="" SD="" Weight="" Low="" High="" />
+  </BalanceOptimization>
+  <SpiderChartProperties>
+  </SpiderChartProperties>
+  <PropertyProfile>
+    <Property Name="HBOND_DONOR_HYDROGEN" Alias="HBond Donor Hydrogens" />
+    <Property Name="MOLECULAR_WEIGHT" Alias="Molecular Weight" />
+    <Property Name="HBOND_ACCEPTOR" Alias="HBond Acceptor" />
+    <Property Name="ROTATABLE_BONDS" Alias="Rotatable Bonds" />
+    <Property Name="CMR" Alias="cMR" />
+    <Property Name="MOLECULAR_SOLUBILITY" Alias="Molecular_Solubility" />
+    <Property Name="HALOGEN_COUNT" Alias="Halogen Count" />
+    <Property Name="NITROGEN_OXYGEN_COUNT" Alias="Nitrogen + Oxygen Count" />
+  </PropertyProfile>
+  <PropertyProfileMasterBins>
+    <Property Name="CMR" MinValue="0" MaxValue="50" IsFirstRow="Y">
+    </Property>
+    <Property Name="CMR" MinValue="50" MaxValue="100" IsFirstRow="N">
+    </Property>
+    <Property Name="CMR" MinValue="100" MaxValue="150" IsFirstRow="N">
+    </Property>
+    <Property Name="CMR" MinValue="150" MaxValue="200" IsFirstRow="N">
+    </Property>
+    <Property Name="CMR" MinValue="200" MaxValue="250" IsFirstRow="N">
+    </Property>
+    <Property Name="CMR" MinValue="250" MaxValue="300" IsFirstRow="N">
+    </Property>
+    <Property Name="CMR" MinValue="300" MaxValue="350" IsFirstRow="N">
+    </Property>
+    <Property Name="CMR" MinValue="350" MaxValue="400" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="0" MaxValue="1" IsFirstRow="Y">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="1" MaxValue="2" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="2" MaxValue="3" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="3" MaxValue="4" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="4" MaxValue="5" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="5" MaxValue="6" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="6" MaxValue="7" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="7" MaxValue="8" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="8" MaxValue="9" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="9" MaxValue="10" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="10" MaxValue="11" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="11" MaxValue="12" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="12" MaxValue="13" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="13" MaxValue="14" IsFirstRow="N">
+    </Property>
+    <Property Name="HALOGEN_COUNT" MinValue="14" MaxValue="15" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_ACCEPTOR" MinValue="0" MaxValue="1" IsFirstRow="Y">
+    </Property>
+    <Property Name="HBOND_ACCEPTOR" MinValue="1" MaxValue="2" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_ACCEPTOR" MinValue="2" MaxValue="3" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_ACCEPTOR" MinValue="3" MaxValue="4" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_ACCEPTOR" MinValue="4" MaxValue="5" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_ACCEPTOR" MinValue="5" MaxValue="6" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_ACCEPTOR" MinValue="6" MaxValue="7" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_ACCEPTOR" MinValue="7" MaxValue="8" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_DONOR_HYDROGEN" MinValue="0" MaxValue="1" IsFirstRow="Y">
+    </Property>
+    <Property Name="HBOND_DONOR_HYDROGEN" MinValue="1" MaxValue="2" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_DONOR_HYDROGEN" MinValue="2" MaxValue="3" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_DONOR_HYDROGEN" MinValue="3" MaxValue="4" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_DONOR_HYDROGEN" MinValue="4" MaxValue="5" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_DONOR_HYDROGEN" MinValue="5" MaxValue="6" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_DONOR_HYDROGEN" MinValue="6" MaxValue="7" IsFirstRow="N">
+    </Property>
+    <Property Name="HBOND_DONOR_HYDROGEN" MinValue="7" MaxValue="8" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_SOLUBILITY" MinValue="-20" MaxValue="-15" IsFirstRow="Y">
+    </Property>
+    <Property Name="MOLECULAR_SOLUBILITY" MinValue="-15" MaxValue="-10" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_SOLUBILITY" MinValue="-10" MaxValue="-5" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_SOLUBILITY" MinValue="-5" MaxValue="0" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_SOLUBILITY" MinValue="0" MaxValue="5" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_SOLUBILITY" MinValue="5" MaxValue="10" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_SOLUBILITY" MinValue="10" MaxValue="15" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_SOLUBILITY" MinValue="15" MaxValue="20" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="100" MaxValue="150" IsFirstRow="Y">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="150" MaxValue="200" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="200" MaxValue="250" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="250" MaxValue="300" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="300" MaxValue="350" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="350" MaxValue="400" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="400" MaxValue="450" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="450" MaxValue="500" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="500" MaxValue="550" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="550" MaxValue="600" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="600" MaxValue="650" IsFirstRow="N">
+    </Property>
+    <Property Name="MOLECULAR_WEIGHT" MinValue="650" MaxValue="700" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="0" MaxValue="1" IsFirstRow="Y">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="1" MaxValue="2" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="2" MaxValue="3" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="3" MaxValue="4" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="4" MaxValue="5" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="5" MaxValue="6" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="6" MaxValue="7" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="7" MaxValue="8" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="8" MaxValue="9" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="9" MaxValue="10" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="10" MaxValue="11" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="11" MaxValue="12" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="12" MaxValue="13" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="13" MaxValue="14" IsFirstRow="N">
+    </Property>
+    <Property Name="NITROGEN_OXYGEN_COUNT" MinValue="14" MaxValue="15" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="0" MaxValue="1" IsFirstRow="Y">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="1" MaxValue="2" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="2" MaxValue="3" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="3" MaxValue="4" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="4" MaxValue="5" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="5" MaxValue="6" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="6" MaxValue="7" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="7" MaxValue="8" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="8" MaxValue="9" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="9" MaxValue="10" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="10" MaxValue="11" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="11" MaxValue="12" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="12" MaxValue="13" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="13" MaxValue="14" IsFirstRow="N">
+    </Property>
+    <Property Name="ROTATABLE_BONDS" MinValue="14" MaxValue="15" IsFirstRow="N">
+    </Property>
+  </PropertyProfileMasterBins>
+  <ChemistryEditor>2</ChemistryEditor>
+</ADOptConfigSettings>
